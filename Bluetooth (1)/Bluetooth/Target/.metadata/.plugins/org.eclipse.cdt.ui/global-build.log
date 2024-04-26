@@ -1,0 +1,158 @@
+15:40:40 **** Incremental Build of configuration Debug for project bluetooth ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F411xE -DNUCLEO_F411RE -DSTM32 -DSTM32F4 -DSTM32F411RETx -c -I../Inc -I"C:/Users/Dell/Desktop/Bluetooth/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Users/Dell/Desktop/Bluetooth/CMSIS/Core/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "bluetooth.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Dell\Desktop\Bluetooth\Target\bluetooth\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="bluetooth.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: bluetooth.elf
+ 
+arm-none-eabi-size   bluetooth.elf 
+arm-none-eabi-objdump -h -S  bluetooth.elf  > "bluetooth.list"
+   text	   data	    bss	    dec	    hex	filename
+   1092	      8	   1568	   2668	    a6c	bluetooth.elf
+Finished building: default.size.stdout
+ 
+Finished building: bluetooth.list
+ 
+15:41:21 **** Incremental Build of configuration Debug for project bluetooth ****
+make -j8 all 
+arm-none-eabi-size   bluetooth.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1092	      8	   1568	   2668	    a6c	bluetooth.elf
+Finished building: default.size.stdout
+ 
+15:43:08 **** Incremental Build of configuration Debug for project bluetooth ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F411xE -DNUCLEO_F411RE -DSTM32 -DSTM32F4 -DSTM32F411RETx -c -I../Inc -I"C:/Users/Dell/Desktop/Bluetooth/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Users/Dell/Desktop/Bluetooth/CMSIS/Core/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "bluetooth.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Dell\Desktop\Bluetooth\Target\bluetooth\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="bluetooth.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: bluetooth.elf
+ 
+arm-none-eabi-size   bluetooth.elf 
+arm-none-eabi-objdump -h -S  bluetooth.elf  > "bluetooth.list"
+   text	   data	    bss	    dec	    hex	filename
+   1100	      8	   1568	   2676	    a74	bluetooth.elf
+Finished building: default.size.stdout
+ 
+Finished building: bluetooth.list
+ 
+15:44:53 **** Incremental Build of configuration Debug for project bluetooth ****
+make -j8 all 
+arm-none-eabi-size   bluetooth.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1100	      8	   1568	   2676	    a74	bluetooth.elf
+Finished building: default.size.stdout
+ 
+15:47:33 **** Incremental Build of configuration Debug for project bluetooth ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F411xE -DNUCLEO_F411RE -DSTM32 -DSTM32F4 -DSTM32F411RETx -c -I../Inc -I"C:/Users/Dell/Desktop/Bluetooth/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Users/Dell/Desktop/Bluetooth/CMSIS/Core/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+../Src/main.c: In function 'main':
+../Src/main.c:65:7: warning: unused variable 'Data' [-Wunused-variable]
+   65 |  char Data;
+      |       ^~~~
+arm-none-eabi-gcc -o "bluetooth.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Dell\Desktop\Bluetooth\Target\bluetooth\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="bluetooth.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: bluetooth.elf
+ 
+arm-none-eabi-size   bluetooth.elf 
+arm-none-eabi-objdump -h -S  bluetooth.elf  > "bluetooth.list"
+   text	   data	    bss	    dec	    hex	filename
+    996	      8	   1568	   2572	    a0c	bluetooth.elf
+Finished building: default.size.stdout
+ 
+Finished building: bluetooth.list
+ 
+15:48:00 **** Incremental Build of configuration Debug for project bluetooth ****
+make -j8 all 
+arm-none-eabi-size   bluetooth.elf 
+   text	   data	    bss	    dec	    hex	filename
+    996	      8	   1568	   2572	    a0c	bluetooth.elf
+Finished building: default.size.stdout
+ 
+15:48:58 **** Incremental Build of configuration Debug for project bluetooth ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F411xE -DNUCLEO_F411RE -DSTM32 -DSTM32F4 -DSTM32F411RETx -c -I../Inc -I"C:/Users/Dell/Desktop/Bluetooth/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Users/Dell/Desktop/Bluetooth/CMSIS/Core/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "bluetooth.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Dell\Desktop\Bluetooth\Target\bluetooth\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="bluetooth.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: bluetooth.elf
+ 
+arm-none-eabi-size   bluetooth.elf 
+arm-none-eabi-objdump -h -S  bluetooth.elf  > "bluetooth.list"
+   text	   data	    bss	    dec	    hex	filename
+   1092	      8	   1568	   2668	    a6c	bluetooth.elf
+Finished building: default.size.stdout
+ 
+Finished building: bluetooth.list
+ 
+15:56:25 **** Incremental Build of configuration Debug for project bluetooth ****
+make -j8 all 
+arm-none-eabi-size   bluetooth.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1092	      8	   1568	   2668	    a6c	bluetooth.elf
+Finished building: default.size.stdout
+ 
+16:00:02 **** Incremental Build of configuration Debug for project bluetooth ****
+make -j8 all 
+arm-none-eabi-size   bluetooth.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1092	      8	   1568	   2668	    a6c	bluetooth.elf
+Finished building: default.size.stdout
+ 
+16:15:26 **** Incremental Build of configuration Debug for project bluetooth ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F411xE -DNUCLEO_F411RE -DSTM32 -DSTM32F4 -DSTM32F411RETx -c -I../Inc -I"C:/Users/Dell/Desktop/Bluetooth/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Users/Dell/Desktop/Bluetooth/CMSIS/Core/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "bluetooth.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Dell\Desktop\Bluetooth\Target\bluetooth\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="bluetooth.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: bluetooth.elf
+ 
+arm-none-eabi-size   bluetooth.elf 
+arm-none-eabi-objdump -h -S  bluetooth.elf  > "bluetooth.list"
+   text	   data	    bss	    dec	    hex	filename
+   1092	      8	   1568	   2668	    a6c	bluetooth.elf
+Finished building: default.size.stdout
+ 
+Finished building: bluetooth.list
+ 
+16:21:32 **** Incremental Build of configuration Debug for project bluetooth ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F411xE -DNUCLEO_F411RE -DSTM32 -DSTM32F4 -DSTM32F411RETx -c -I../Inc -I"C:/Users/Dell/Desktop/Bluetooth/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Users/Dell/Desktop/Bluetooth/CMSIS/Core/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "bluetooth.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Dell\Desktop\Bluetooth\Target\bluetooth\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="bluetooth.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: bluetooth.elf
+ 
+arm-none-eabi-size   bluetooth.elf 
+arm-none-eabi-objdump -h -S  bluetooth.elf  > "bluetooth.list"
+   text	   data	    bss	    dec	    hex	filename
+   1092	      8	   1568	   2668	    a6c	bluetooth.elf
+Finished building: default.size.stdout
+ 
+Finished building: bluetooth.list
+ 
+16:25:07 **** Incremental Build of configuration Debug for project bluetooth ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F411xE -DNUCLEO_F411RE -DSTM32 -DSTM32F4 -DSTM32F411RETx -c -I../Inc -I"C:/Users/Dell/Desktop/Bluetooth/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Users/Dell/Desktop/Bluetooth/CMSIS/Core/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "bluetooth.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Dell\Desktop\Bluetooth\Target\bluetooth\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="bluetooth.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: bluetooth.elf
+ 
+arm-none-eabi-size   bluetooth.elf 
+arm-none-eabi-objdump -h -S  bluetooth.elf  > "bluetooth.list"
+   text	   data	    bss	    dec	    hex	filename
+   1092	      8	   1568	   2668	    a6c	bluetooth.elf
+Finished building: default.size.stdout
+ 
+Finished building: bluetooth.list
+ 
+16:30:12 **** Incremental Build of configuration Debug for project bluetooth ****
+make -j8 all 
+arm-none-eabi-size   bluetooth.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1092	      8	   1568	   2668	    a6c	bluetooth.elf
+Finished building: default.size.stdout
+ 
+16:32:31 **** Incremental Build of configuration Debug for project bluetooth ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F411xE -DNUCLEO_F411RE -DSTM32 -DSTM32F4 -DSTM32F411RETx -c -I../Inc -I"C:/Users/Dell/Desktop/Bluetooth/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Users/Dell/Desktop/Bluetooth/CMSIS/Core/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "bluetooth.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Dell\Desktop\Bluetooth\Target\bluetooth\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="bluetooth.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: bluetooth.elf
+ 
+arm-none-eabi-size   bluetooth.elf 
+arm-none-eabi-objdump -h -S  bluetooth.elf  > "bluetooth.list"
+   text	   data	    bss	    dec	    hex	filename
+   1092	      8	   1568	   2668	    a6c	bluetooth.elf
+Finished building: default.size.stdout
+Finished building: bluetooth.list
+ 
+ 

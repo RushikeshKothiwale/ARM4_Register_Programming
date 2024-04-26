@@ -1,0 +1,15 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+activeLaunchTarget=null\:---
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LED_GPIO_BSR Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LED_GPIO_OUTPUT Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:bluetooth,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LED_SysTickTimer Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LED_GPIO_DEBOUNCING,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LED_GPIO_OUTPUT,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LED_TIMER,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:USART2_TX Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Switch,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Timer2_PWM,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Timer_SysTick,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Timer_counter
+eclipse.preferences.version=1
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LED_GPIO_BSR\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LED_GPIO_BSR\ Debug/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LED_GPIO_DEBOUNCING/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LED_GPIO_ODR\ Debug/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LED_GPIO_OUTPUT\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LED_GPIO_OUTPUT/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:USART2_TX\ Debug/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:LED_GPIO_ODR\ Debug/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:LED_GPIO_ODR\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

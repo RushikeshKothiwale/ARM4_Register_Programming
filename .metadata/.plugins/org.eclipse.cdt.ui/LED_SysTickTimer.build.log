@@ -1,0 +1,17 @@
+19:51:52 **** Incremental Build of configuration Debug for project LED_SysTickTimer ****
+make -j4 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -c -I../Inc -I"C:/Users/ABC/Desktop/ST-32_cube/STM32CubeF4-master/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Users/ABC/Desktop/ST-32_cube/STM32CubeF4-master/Drivers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "LED_SysTickTimer.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\ABC\Desktop\binary_updates_folder\LED_SysTickTimer\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LED_SysTickTimer.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: LED_SysTickTimer.elf
+ 
+arm-none-eabi-size  LED_SysTickTimer.elf 
+arm-none-eabi-objdump -h -S LED_SysTickTimer.elf  > "LED_SysTickTimer.list"
+   text	   data	    bss	    dec	    hex	filename
+    832	      8	   1568	   2408	    968	LED_SysTickTimer.elf
+Finished building: default.size.stdout
+ 
+Finished building: LED_SysTickTimer.list
+ 
+
+19:51:54 Build Finished. 0 errors, 0 warnings. (took 1s.828ms)
+

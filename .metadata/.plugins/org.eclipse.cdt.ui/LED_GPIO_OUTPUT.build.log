@@ -1,0 +1,10 @@
+12:07:47 **** Incremental Build of configuration Debug for project LED_GPIO_OUTPUT ****
+make -j4 all 
+arm-none-eabi-size  LED_GPIO_OUTPUT.elf 
+   text	   data	    bss	    dec	    hex	filename
+    808	      8	   1568	   2384	    950	LED_GPIO_OUTPUT.elf
+Finished building: default.size.stdout
+ 
+
+12:07:48 Build Finished. 0 errors, 0 warnings. (took 418ms)
+

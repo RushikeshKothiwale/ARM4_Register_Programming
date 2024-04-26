@@ -1,0 +1,132 @@
+!SESSION 2024-04-20 11:06:17.902 -----------------------------------------------
+eclipse.buildId=Version 1.14.0
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-04-20 11:07:00.168
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-04-20 11:07:00.181
+!MESSAGE Log4j2 initialized with config file C:\Users\ABC\Desktop\binary_updates_folder\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-04-20 11:07:08.029
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-04-20 11:11:33.064
+!MESSAGE Indexed 'LED_GPIO' (2 sources, 53 headers) in 2.06 sec: 1,948 declarations; 2,830 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.042%)
+!SESSION 2024-04-21 17:44:28.686 -----------------------------------------------
+eclipse.buildId=Version 1.14.0
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-04-21 17:44:59.614
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-04-21 17:45:14.287
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-04-21 17:45:14.292
+!MESSAGE Log4j2 initialized with config file C:\Users\ABC\Desktop\binary_updates_folder\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-04-21 17:45:26.324
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-04-22 11:47:27.111
+!MESSAGE Indexed 'LED_GPIO_ODR' (3 sources, 61 headers) in 3.73 sec: 3,253 declarations; 5,315 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.023%)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.swv 1 1 2024-04-22 11:54:21.861
+!MESSAGE SWV configuration; base: 36000000; minDiv: 18; maxDiv: 65535; maxSWO: 2000000; limit: 2000000 => SWO: 2000000; CPU: 16000000; div: 8
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.swv 1 1 2024-04-22 11:54:57.726
+!MESSAGE SWV configuration; base: 36000000; minDiv: 18; maxDiv: 65535; maxSWO: 2000000; limit: 2000000 => SWO: 2000000; CPU: 16000000; div: 8
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-04-22 11:55:32.171
+!MESSAGE Indexed 'LED_GPIO_BSR' (3 sources, 61 headers) in 1.5 sec: 3,255 declarations; 5,349 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.023%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-04-22 11:59:10.821
+!MESSAGE Indexed 'LED_GPIO_OUTPUT' (3 sources, 61 headers) in 1.42 sec: 3,255 declarations; 5,349 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.023%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-04-22 12:00:53.239
+!MESSAGE Indexed 'LED_GPIO_INPUT' (3 sources, 61 headers) in 1.52 sec: 3,255 declarations; 5,349 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.023%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-04-22 12:08:44.027
+!MESSAGE Indexed 'LED_GPIO_DEBOUNCING' (3 sources, 61 headers) in 1.54 sec: 3,253 declarations; 5,363 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.023%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-04-22 13:31:15.293
+!MESSAGE Indexed 'LED_TIMER' (3 sources, 61 headers) in 1.84 sec: 3,255 declarations; 5,366 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.023%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-04-22 13:57:15.931
+!MESSAGE Indexed 'LED_SysTickTimer' (3 sources, 61 headers) in 1.13 sec: 3,253 declarations; 5,375 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.023%)
+!SESSION 2024-04-22 22:36:53.538 -----------------------------------------------
+eclipse.buildId=Version 1.14.0
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-04-22 22:37:21.536
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-04-22 22:37:21.542
+!MESSAGE Log4j2 initialized with config file C:\Users\ABC\Desktop\binary_updates_folder\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-04-22 22:37:39.004
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2024-04-23 14:51:03.166 -----------------------------------------------
+eclipse.buildId=Version 1.14.0
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-04-23 14:51:25.668
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-04-23 14:51:25.756
+!MESSAGE Log4j2 initialized with config file C:\Users\ABC\Desktop\binary_updates_folder\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-04-23 14:51:54.350
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2024-04-24 18:45:15.485 -----------------------------------------------
+eclipse.buildId=Version 1.14.0
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-04-24 18:45:55.741
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-04-24 18:45:55.747
+!MESSAGE Log4j2 initialized with config file C:\Users\ABC\Desktop\binary_updates_folder\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-04-24 18:46:07.680
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-04-24 18:46:54.181
+!MESSAGE Indexed 'bluetooth' (3 sources, 53 headers) in 2.06 sec: 1,959 declarations; 2,839 references; 1 unresolved inclusions; 1 syntax errors; 56 unresolved names (1.2%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-04-24 20:07:18.400
+!MESSAGE Indexed 'USART2_TX' (3 sources, 61 headers) in 2.94 sec: 3,253 declarations; 5,375 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.023%)
+!SESSION 2024-04-26 12:00:15.539 -----------------------------------------------
+eclipse.buildId=Version 1.14.0
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-04-26 12:00:40.181
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-04-26 12:00:40.186
+!MESSAGE Log4j2 initialized with config file C:\Users\ABC\Desktop\binary_updates_folder\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-04-26 12:00:54.266
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-04-26 12:01:06.984
+!MESSAGE Indexed 'Timer2_PWM' (3 sources, 53 headers) in 1.56 sec: 1,956 declarations; 2,825 references; 1 unresolved inclusions; 1 syntax errors; 47 unresolved names (0.97%)

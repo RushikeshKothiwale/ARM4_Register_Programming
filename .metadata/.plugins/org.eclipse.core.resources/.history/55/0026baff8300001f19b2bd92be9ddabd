@@ -1,0 +1,36 @@
+#include "stm32f446xx.h"
+
+void SysTickDelayMS(int delay);
+
+
+int main(void){
+
+	RCC->AHB1ENR |= (1<<0);
+
+//	RCC->APB2ENR |= (1<<0);
+
+	GPIOA->MODER |= (1<<10);
+
+	GPIOA->MODER &= ~(1<<11);
+
+
+
+	while(1){
+
+
+
+	}
+}
+
+void SysTickDelayMS(int delay){
+	SysTick->LOAD = 16000;
+	SysTick->VAL = 0;
+	SysTick->CTRL = (1<<0)|(1<<2);
+	for(int i=0; i<delay; i++){
+		while((SysTick->CTRL & (1<<16))==0);
+	}
+
+
+}
+
+
